@@ -1,9 +1,9 @@
 /* nav  related style */
 nav {
   display: flex;
- justify-content: space-between;  
- align-items: center;
- margin: 0 200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 /* commone searded style    */
 body {
@@ -41,10 +41,16 @@ nav a {
 }
 
 /* header related style */
-.header{
-background-color: #FFF8F3;;
+.header {
+  background-color: #fff8f3;
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 584px;
+
 }
